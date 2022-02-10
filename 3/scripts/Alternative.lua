@@ -1,0 +1,27 @@
+
+	-- if behaviour then 
+		-- if x3~=x or y3~=y then 
+			-- floodb=true
+			-- if not moving and floodb then for i=1,21,1 do for i2=1,14,1 do points[i][i2]=0 end end flood(x/ts+1,y/ts+1,0) end
+			-- if points[x3/ts+1][y3/ts+1]==1 then x3=x3-ts
+			-- elseif points[x3/ts+1][y3/ts+1]==2 then x3=x3+ts
+			-- elseif points[x3/ts+1][y3/ts+1]==3 then y3=y3+ts
+			-- elseif points[x3/ts+1][y3/ts+1]==4 then y3=y3-ts
+			-- end
+		-- else floodb=false
+		-- end
+	-- end
+-- end
+-- end
+-- end
+-- function flood(ar,ar2,ar3)
+	-- if ((ar > 0) and (ar2 > 0) and (ar < 22) and (ar2 < 16)) then
+		-- if map[ar][ar2]==0 and points[ar][ar2] == 0 then
+			-- points[ar][ar2]=ar3
+			-- flood(ar+1,ar2,1) 
+			-- flood(ar-1,ar2,2)
+			-- flood(ar,ar2-1,3)
+			-- flood(ar,ar2+1,4)
+		-- end
+	-- end
+-- end
